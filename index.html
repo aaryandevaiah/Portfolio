@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaryan Devaiah</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balthazar&family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Fixed Sidebars -->
+    <div class="sidebar left-sidebar">
+        <ul class="social-links">
+            <li><a href="https://github.com/aaryandevaiah" target="_blank" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li>
+            <li><a href="https://www.linkedin.com/in/aaryandevaiah/" target="_blank" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><title>LinkedIn</title><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></li>
+        </ul>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="navbar">
+        <div class="logo">Aaryan Devaiah</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://drive.google.com/file/d/1vE0lXr1C2cjqju_S10WMt0i-JysbRwvF/view?usp=sharing" class="btn btn-outline" target="_blank">Resume</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="fade-in">
+            <div class="hero-content">
+                <h1>Hi, my name is <br><span class="flicker">Aaryan Devaiah.</span></h1>
+                <div class="scramble-container">
+                    <h2 class="scramble-prefix">I am a</h2>
+                    <h2 class="scramble-text" id="scramble-text"></h2>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About / Education Section -->
+        <section id="about" class="section fade-in" style="padding-top: 50px;">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-bio" style="margin-bottom: 40px; color: var(--text-secondary); font-size: 16px; line-height: 1.8;">
+                <p>Greetings, wanderer of the web! I'm Aaryan, a Computer Science student at SRM Institute of Science and Technology with a penchant for digital lockpicking (a.k.a. Cyber Security). When I'm not untangling the mysteries of cryptography or teaching Raspberry Pis to outsmart wildlife, I'm busy weaving code into sleek, unhackable full-stack apps. Think of me as part developer, part cybersecurity ninja, and full-time puzzle solver—I love turning impossibly complex challenges into elegant, functional magic!</p>
+                <br>
+                <p>Here are a few of the spells and scrolls I've picked up along my journey so far:</p>
+            </div>
+            <div class="about-container">
+                <div class="education-list">
+                    <div class="education-item">
+                        <h3>SRM Institute of Science and Technology</h3>
+                        <p class="degree">B.Tech Computer Science with Specialization in Cyber Security</p>
+                        <p class="date">Expected Graduation: May 2027</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Riverside Public School</h3>
+                        <p class="degree">12th Grade in CISCE Board</p>
+                        <p class="date">May 2023</p>
+                        <p class="grade">82%</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Riverside Public School</h3>
+                        <p class="degree">10th Grade in CISCE Board</p>
+                        <p class="date">May 2021</p>
+                        <p class="grade">88%</p>
+                    </div>
+                </div>
+                <div class="skills-list">
+                    <div class="skill-category">
+                        <h4>Technical Skills</h4>
+                        <ul class="tags">
+                            <li>C</li><li>C++</li><li>Java</li><li>HTML</li><li>CSS</li><li>MySQL</li>
+                            <li>Operating Systems</li><li>Data Structures</li><li>Cryptography</li>
+                            <li>Security Governance</li><li>Security Risk Management</li>
+                            <li>Computer Networks</li><li>AutoCAD</li>
+                            <li>Kali Linux</li><li>Metasploit</li><li>Nessus</li><li>Tenable</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Certifications</h4>
+                        <ul>
+                            <li>C programming For Beginners (Udemy)</li>
+                            <li>Mastering Data structures and Algorithms using C and C++ (Udemy)</li>
+                            <li>Cybersecurity and Cryptography: Secure data and network (Udemy)</li>
+                            <li>Prompt Engineering for ChatGPT (Vanderbilt University)</li>
+                            <li>AI and the Illusion of Intelligence (Copenhagen Business School)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section fade-in">
+            <h2 class="section-title">Where I've Worked</h2>
+            <div class="tabs-container">
+                <div class="tab-list" role="tablist">
+                    <button class="tab-button active" role="tab" aria-selected="true" data-target="panel-1">Nature Conservation Foundation</button>
+                    <!-- Add more buttons here when needed -->
+                </div>
+                <div class="tab-panels">
+                    <div class="tab-panel active" id="panel-1" role="tabpanel">
+                        <h3>Community Connect <span>@ Nature Conservation Foundation</span></h3>
+                        <p class="date">July 3rd - July 30th</p>
+                        <ul>
+                            <li>Participated in rainforest restoration and planting in the Valparai Plateau rainforest fragments.</li>
+                            <li>Participated in ecological research and monitoring fieldwork related to tree phenology and forest dynamics.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section fade-in">
+            <h2 class="section-title">Some Things I've Built</h2>
+            
+            <div class="project-featured right">
+                <div class="project-content">
+                    <p class="project-overline">Featured Project</p>
+                    <h3 class="project-title">AI-Based Wildlife Monitoring</h3>
+                    <div class="project-description">
+                        <p>An AI-based wildlife monitoring and tracking system that automatically recognizes and tracks animal movements using a portable hardware set-up and machine learning inference at the edge.</p>
+                    </div>
+                    <ul class="project-tech-list">
+                        <li>Raspberry Pi</li>
+                        <li>IoT</li>
+                        <li>Machine Learning</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-featured left">
+                <div class="project-content">
+                    <p class="project-overline">Featured Project</p>
+                    <h3 class="project-title">Japanese Restaurant Delivery System</h3>
+                    <div class="project-description">
+                        <p>Developed a full-stack website to promote Japanese cuisine. The application integrates a robust Java backend with an interactive web front-end for seamless food delivery orders.</p>
+                    </div>
+                    <ul class="project-tech-list">
+                        <li>Java</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 class="subsection-title">Other Projects</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <div class="folder-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                            </div>
+                        </div>
+                        <h4 class="project-title">Traffic Light Control System</h4>
+                        <div class="project-description">
+                            <p>A smart traffic light control system using IR sensors to detect vehicle density at a T-junction, dynamically adjusting timings.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>Arduino</li>
+                            <li>IR Sensors</li>
+                            <li>C++</li>
+                        </ul>
+                    </footer>
+                </div>
+
+                <div class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <div class="folder-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                            </div>
+                        </div>
+                        <h4 class="project-title">Shoe Catalogue System</h4>
+                        <div class="project-description">
+                            <p>A marketplace where users can discover a multi-brand shoe catalogue with detailed listings, pricing, and seller information.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>SQL</li>
+                            <li>Database Design</li>
+                        </ul>
+                    </footer>
+                </div>
+
+                <div class="project-card">
+                    <header>
+                        <div class="project-top">
+                            <div class="folder-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                            </div>
+                        </div>
+                        <h4 class="project-title">Self-Driving Car Simulation</h4>
+                        <div class="project-description">
+                            <p>Built entirely with vanilla JavaScript and Canvas, this browser-based simulator demystifies autonomous vehicle tech without libraries.</p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>JavaScript</li>
+                            <li>HTML5 Canvas</li>
+                        </ul>
+                    </footer>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section fade-in">
+            <h2 class="section-title">Reach me at</h2>
+            <div class="contact-content">
+                <p class="contact-email">aaryanevaiah.ad<span>@gmail.com</span></p>
+                <p class="tagline">and let's discuss how we can secure the digital world and maybe build some cool tech together.</p>
+                <a href="mailto:aaryanevaiah.ad@gmail.com" class="btn btn-primary">Say Hello</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
